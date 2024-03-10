@@ -1,23 +1,7 @@
-# AI Newsletter
-
-## Dev
-
-Install with 
-```
-poetry install --no-root
-```
-
-view python environments
-```
-poetry env list
-```
-
-activate python environment
-```
-poetry shell
-```
-
-### Creating an ai agent cheat cheet
+from crewai import Agent
+from textwrap import dedent
+from langchain.llms import OpenAI, Ollama
+from langchain_openai import ChatOpenAI
 
 """
 Creating Agents Cheat Sheet:
