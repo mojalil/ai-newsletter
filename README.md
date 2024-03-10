@@ -1,5 +1,9 @@
 # AI Newsletter
 
+## References
+
+Based on: https://www.youtube.com/watch?v=Jl6BuoXcZPE
+
 ## Dev
 
 Install with 
