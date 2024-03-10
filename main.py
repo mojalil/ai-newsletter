@@ -37,3 +37,10 @@ crew = Crew(
     manager_llm=OpenAIGPT4,
     verbose=2
 )
+
+# Kick off the crew's work
+results = crew.kickoff()
+
+# Print the results
+print("Crew Work Results:")
+print(results)
